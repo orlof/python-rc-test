@@ -1,0 +1,16 @@
+tasks:
+  Snake:
+    shell: python snake.py
+  Snake 2:
+    shell: python snake2.py
+  Lunar Lander:
+    shell: python lunarlander.py
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
